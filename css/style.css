@@ -1,0 +1,435 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: helvetica, sans-serif;
+    color: #070F87;
+}
+
+h2 {
+    font-family: 'open sans', sans-serif;
+    color: #754B2D;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+/*textboxes*/
+
+.textbox {
+    width: 85%;
+    margin: auto;
+    color: #070F87;
+    font-size: 24px;
+    font-family: 'open sans', sans-serif;
+}
+
+.processlist {
+    color: #754B2D;
+    font-weight: bold;
+}
+
+.textboxopen {
+    width: 85%;
+    margin: auto;
+    color: #070F87;
+    font-size: 24px;
+    font-family: 'open sans', sans-serif;
+}
+
+.text2 {
+    color: #070F87;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/*Navigation Bar*/
+
+.navbar {
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.navbar ul {
+    border-top: 1px solid #E6E322;
+    border-bottom: 1px solid #E6E322;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar a {
+    color: #754B2D;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 7px 8px;
+}
+
+.navbar a:visited {
+    color: #942009;
+}
+
+.navbar a:hover {
+    background-color: #E6E322;
+}
+
+a:active {
+    color: #919599;
+}
+
+.active {
+    background-color: #DBDAB4;
+}
+
+
+/*End Nav Bar*/
+
+.container {
+    background-color: #DBDAB4;
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+/*Opening Div*/
+
+.metabox {
+    background-color: #060436;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+
+
+/*
+#name {
+    font-family: 'anton', sans-serif;
+    color: #919599;
+    font-size: 35px;
+    font-weight:bold;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+*/
+
+
+/*
+#bklyn {
+    color: #E6E322;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'quando', serif;
+}
+*/
+
+#made {
+    color: #070F87;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'courgette', cursive;
+    font-size: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #070F87;
+}
+
+#openpic {
+    background-image: url(../images/businesssuitpx.jpg);
+    height: 250px;
+    width: 50%;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#tailor {
+    background-image: url(../images/tailorpx.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.process {
+    list-style-type: square;
+    font-family: 'open sans', sans-serif;
+    color: #070F87;
+}
+
+#story {
+    background-image: url(../images/suit1px.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#wait {
+    background-image: url(../images/contactpx.jpg);
+    height: 250px;
+    width: 50%;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.box1 {
+    display: inline-block;
+    background-image: url(../images/gqpx2.jpg);
+    width: 250px;
+    height: 250px;
+    margin: 3em;
+    border-radius: 5%;
+}
+
+.box2 {
+    display: inline-block;
+    background-image: url(../images/gq2crop.jpg);
+    width: 250px;
+    height: 250px;
+    margin: 3em;
+    border-radius: 5%;
+}
+
+.metabox2 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color:#DBDAB4;
+    clear: both;
+}
+
+
+/*footer*/
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-image: url(../images/fabricbg.jpg);
+}
+
+.footbox1 {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.footbox2 {
+    display: inline-block;
+    color: #DBDAB4;
+    font-weight: bold;
+    font-size: 18px;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    font-family: 'roboto', sans-serif;
+    vertical-align: top;
+}
+
+.footbox3 {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#hash {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+    color: #DBDAB4;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 18px;
+    width: 18px;
+    text-decoration: none;
+    margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #754B2D;
+    background-color: #DBDAB4;
+}
+
+.fa-twitter {
+    color: #754B2D;
+    background-color: #DBDAB4;
+}
+
+.fa-snapchat-ghost {
+    color: #754B2D;
+    background-color: #DBDAB4;
+}
+
+.fa-instagram {
+    color: #754B2D;
+    background-color: #DBDAB4;
+}
+
+.fa-pinterest {
+    color: #754B2D;
+    background-color: #DBDAB4;
+}
+
+
+/*appointment buttons*/
+
+.appointment1 {
+    padding: 8px;
+    font-size: 18px;
+    color: #E6E322;
+    background-color: #060436;
+    border: 3px solid #754B2D;
+    cursor: pointer;
+    font-family: 'anton';
+}
+
+.appointment2 {
+    padding: 8px;
+    font-size: 16px;
+    color: #E6E322;
+    background-color: #060436;
+    border: 3px solid #754B2D;
+    cursor: pointer;
+    font-family: 'anton';
+}
+
+#button1 {
+    float: right;
+}
+
+.appointment1:hover,
+.appointment2:hover {
+    background-color: #070F87;
+}
+
+
+/*contact page*/
+
+.address {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin: 25px;
+    padding-top: 20px;
+    border-radius: 5%;
+    color: #E6E322;
+    font-size: 20px;
+    background-color: #060436;
+    border: 3px solid #754B2D;
+    font-family: 'roboto', sans-serif;
+    vertical-align: top;
+}
+
+.map {
+    display: inline-block;
+    width: 250px;
+    height: 220px;
+    margin: 25px;
+    border: 3px solid #754B2D;
+    vertical-align: top;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.day {
+    float: left;
+    margin-left: 10px;
+}
+
+.time {
+    float: right;
+    margin-right: 10px;
+}
+
+.contactbox {
+    margin: auto;
+    width: 400px;
+    height: auto;
+    background-color: #060436;
+    color: #070F87;
+    border: 3px solid #754B2D;
+}
+
+.form {
+    line-height: 12px;
+    height: auto;
+}
+
+.resize {
+    width: 170px;
+    display: block;
+}
+
+.comments {
+    width: 200px;
+    padding: 15px 10px;
+    display: block;
+}
+
+.submit {
+    width: 100px;
+    padding: 4px;
+    font-family: 'roboto', sans-serif;
+}
+
+.submit:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.sb {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.label {
+    color: #E6E322;
+    font-size: 20px;
+    display: block;
+    float: left;
+    text-align: right;
+    width: 110px;
+    padding-right: 5px;
+    font-family: 'roboto', sans-serif;
+}
